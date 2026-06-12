@@ -49,6 +49,7 @@ Dự án nâng cấp Day 09 đã đạt kết quả xuất sắc:
 Thông qua việc chỉnh sửa này, dự án Multi-Agent không chỉ là một mã nguồn chạy mô phỏng cục bộ (local) mà đã trở thành một hệ thống thực thụ, tuân thủ các best-practices về bảo mật, container hóa, và CI/CD. Khả năng mở rộng và triển khai nay đã được đảm bảo một cách toàn diện.
 
 
+```text
 ====================================================================================================
    Production Readiness Check — Day 12 Lab
 ====================================================================================================
@@ -62,7 +63,7 @@ Thông qua việc chỉnh sửa này, dự án Multi-Agent không chỉ là mộ
   ✅ railway.toml or render.yaml exists
 
 🔒 Security
-  ✅ .env in .gitignore — Add .env to .gitignore!
+  ✅ .env in .gitignore
   ✅ No hardcoded secrets in code
 
 🌐 API Endpoints (code check)
@@ -85,3 +86,4 @@ Thông qua việc chỉnh sửa này, dự án Multi-Agent không chỉ là mộ
   Result: 20/20 checks passed (100%)
   🎉 PRODUCTION READY! Deploy nào!
 ====================================================================================================
+```
